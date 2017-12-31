@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="CTMF Data Request" max_length="40" name="x_122670_ctmf_data_ctmf_data_request" type="collection">
+        <element label="Business Reason for Request" max_length="40" name="business_reason_for_request" type="string"/>
+        <element choice="1" label="Functional Area" max_length="40" name="functional_area" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Primary Application" max_length="40" name="primary_application" type="choice">
+            <choice/>
+        </element>
+        <element label="Report Description" max_length="40" name="report_description" type="string"/>
+        <element label="Requested Delivery Date" max_length="40" name="requested_delivery_date" type="glide_date"/>
+        <element choice="1" label="Revenue Location" max_length="40" name="revenue_location" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
